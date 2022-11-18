@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author álvaro <alvarojimgil12@gmail.com>
+ * @author Ã¡lvaro <alvarojimgil12@gmail.com>
  */
 public class Ejercicio19t2 {
 
@@ -21,7 +21,7 @@ public class Ejercicio19t2 {
         
         File f = new File(ruta);
         
-        System.out.println("Bytes"+f.length()+" MB: "+f.length()/2048);
+        System.out.println("Bytes"+f.length()+" MB: "+f.length()*2048);
     }
     
 }
