@@ -21,7 +21,7 @@ public class Ejercicio19t2 {
         
         File f = new File(ruta);
         
-        System.out.println("Bytes"+f.length()+" MB: "+f.length()*2048);
+        System.out.println("Bytes"+f.length()+" MB: "+f.length()/2048);
     }
     
 }
