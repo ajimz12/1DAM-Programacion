@@ -3,7 +3,7 @@ package ejercicio1t3;
 
 /**
  *
- * @author 醠varo <alvarojimgil12@gmail.com>
+ * @author 谩lvaro <alvarojimgil12@gmail.com>
  */
 import java.util.*;
 
@@ -18,7 +18,7 @@ public class Ejercicio1t3 {
             "Hammer Smashed Face.mp3","Tornado of Souls.mp3",
             "Locura Transitoria.mp3"};
 
-        System.out.println("Elige una de estas incre韇les canciones para reproducir (Mediante su n鷐ero)");
+        System.out.println("Elige una de estas incre铆bles canciones para reproducir (Mediante su n煤mero)");
         
         System.out.println("1. Eyeless - Slipknot");
         System.out.println("2. Enter Sandman - Metallica");
@@ -35,27 +35,27 @@ public class Ejercicio1t3 {
         switch(num){
             
             case 1:
-            System.out.println("Canci髇 a reproducir... Eyeless de Slipknot!");
+            System.out.println("Canci贸n a reproducir... "+canciones[0]);
             break;
             
              case 2:
-            System.out.println("Canci髇 a reproducir... Enter Sandman de Metallica!");
+            System.out.println("Canci贸n a reproducir... "+canciones[1]);
             break;
             
              case 3:
-            System.out.println("Canci髇 a reproducir... Hammer Smashed Face de Cannibal Corpse!");
+            System.out.println("Canci贸n a reproducir... " +canciones[2]);
             break;
             
              case 4:
-            System.out.println("Canci髇 a reproducir... Tornado of Souls de Megadeth!");
+            System.out.println("Canci贸n a reproducir... "+canciones[3]);
             break;
             
              case 5:
-            System.out.println("Canci髇 a reproducir... Locura Transitoria de Extremoduro!");
+            System.out.println("Canci贸n a reproducir... "+canciones[4]);
             break;
             
             default:
-                System.out.println("Ups! Parece que no hay ninguna canci髇 disponible");
+                System.out.println("Ups! Parece que no hay ninguna canci贸n disponible");
         }
         
         
