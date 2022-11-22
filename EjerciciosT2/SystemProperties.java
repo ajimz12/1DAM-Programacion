@@ -3,7 +3,7 @@ package prueba;
 
 /**
  *
- * @author ·lvaro <alvarojimgil12@gmail.com>
+ * @author √°lvaro <alvarojimgil12@gmail.com>
  */
 public class SystemProperties {
 
@@ -25,7 +25,7 @@ public class SystemProperties {
         String JavaVendorUrl = "java.vendor.url";
         
         
-        System.out.println("\nInformaciÛn sobre el SO: ");
+        System.out.println("\nInformaci√≥n sobre el SO: ");
         
         System.out.println("\nNombre del SO: "+ System.getProperty(nombreSO));
         
@@ -37,7 +37,7 @@ public class SystemProperties {
 
         System.out.println("Directorio Home del usuario: "+ System.getProperty(Directoriohome));
         
-        System.out.println("Directorio donde est· el usuario: "+ System.getProperty(DirUsuario));
+        System.out.println("Directorio donde est√° el usuario: "+ System.getProperty(DirUsuario));
         
         System.out.println("Version de Java: "+ System.getProperty(VersionJava));
         
@@ -47,7 +47,7 @@ public class SystemProperties {
         
         System.out.println("Vendor de Java: "+ System.getProperty(JavaVendor));
 
-        System.out.println("URL del vendro de Java: "+ System.getProperty(JavaVendorUrl));
+        System.out.println("URL del vendor de Java: "+ System.getProperty(JavaVendorUrl));
 
     }
 
