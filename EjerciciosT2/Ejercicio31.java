@@ -62,6 +62,15 @@ public class Ejercicio31 {
 
     p.reproducir(c);
     
+    Guitarra g = new Guitarra();
+    Instrumento i2 = g;
+    
+    g.reproducir(c);
+    
+
+ 
+    
+    
     
     
     
