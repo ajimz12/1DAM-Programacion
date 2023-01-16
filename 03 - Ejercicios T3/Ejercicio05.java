@@ -2,7 +2,7 @@ package tema.pkg3.ejs;
 
 /**
  *
- * @author álvaro <alvarojimgil12@gmail.com>
+ * @author Ã¡lvaro <alvarojimgil12@gmail.com>
  */
 import java.util.*;
 
@@ -17,16 +17,14 @@ public class Ejercicio05 {
         int npiezas = 0;
         int npiezascaz = 0;
 
-        System.out.println("¿Cuantas piezas se pueden cazar hoy ? :");
+        System.out.println("Â¿Cuantas piezas se pueden cazar hoy ? :");
         npiezas = new Scanner(System.in).nextInt();
 
         System.out.println("--Empezamos la caza >:D");
 
         while (npiezascaz<npiezas) {
             
-            
-            npiezascaz++;
-            
+                        
             System.out.println("Introduzca el numero de piezas cazadas:");
             npiezascaz = new Scanner(System.in).nextInt();
             
@@ -37,7 +35,7 @@ public class Ejercicio05 {
             if (npiezascaz > npiezas) {
 
                 System.out.println("Ha excedido usted el numero de piezas "
-                        + "cazadas al día :(");
+                        + "cazadas al dÃ­a :(");
                 rep = false;
 
             }
