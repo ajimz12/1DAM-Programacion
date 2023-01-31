@@ -56,7 +56,7 @@ public class caja {
         
     }
     
-    public String getEstadoCaja(){
+    public String getAbierto(){
       
         if(abierto){
             
