@@ -44,7 +44,7 @@ public class caja {
     public String getMensajeCaja (){
         
         
-      if(abierto == true){
+      if(abierto){
           
       return mensaje; 
       
@@ -58,7 +58,7 @@ public class caja {
     
     public String getEstadoCaja(){
       
-        if(abierto == true){
+        if(abierto){
             
             return cadenatexto2;
             
