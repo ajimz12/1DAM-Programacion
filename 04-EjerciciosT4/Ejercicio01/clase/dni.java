@@ -4,7 +4,7 @@ package ejercicio01.dni;
 
 /**
  *
- * @author álvaro <alvarojimgil12@gmail.com>
+ * @author Ã¡lvaro <alvarojimgil12@gmail.com>
  */
 public class dni {
     
@@ -21,13 +21,13 @@ public class dni {
       numero = n;
       letra = l;
         
-    };
+    }
     
      public dni(String dni2){
      
      dni = dni2;
      
-     };
+     }
      
      
    //GETTERS
@@ -35,19 +35,19 @@ public class dni {
      public int getNumDni(){
          
          return numero;
-     };
+     }
      
      public char getLetraDni(){
          
         return letra; 
          
-     };
+     }
      
      public String getDni(){
          
        return dni;  
          
-     };
+     }
      
     
     
