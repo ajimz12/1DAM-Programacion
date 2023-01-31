@@ -2,7 +2,7 @@ package ejercicio02;
 
 /**
  *
- * @author álvaro <alvarojimgil12@gmail.com>
+ * @author Ã¡lvaro <alvarojimgil12@gmail.com>
  */
 
 import ejercicio02.caja.*;
@@ -15,7 +15,7 @@ public class Ejercicio02 {
         caja c = new caja();
 
         
-        System.out.println(c.getEstadoCaja());
+        System.out.println(c.getAbierto());
         System.out.println(c.getMensajeCaja());
 
     }
