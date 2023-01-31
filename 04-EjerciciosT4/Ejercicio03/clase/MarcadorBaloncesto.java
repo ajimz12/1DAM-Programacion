@@ -2,7 +2,7 @@ package ejercicio03.MarcadorBaloncesto;
 
 /**
  *
- * @author álvaro <alvarojimgil12@gmail.com>
+ * @author Ã¡lvaro <alvarojimgil12@gmail.com>
  */
 
 import java.time.*;
@@ -83,7 +83,7 @@ public class MarcadorBaloncesto {
 
     }
 
-    // @Override
+    @Override
     public String toString() {
 
         String aux;
