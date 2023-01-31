@@ -3,7 +3,7 @@ package ejercicio02.caja;
 
 /**
  *
- * @author ·lvaro <alvarojimgil12@gmail.com>
+ * @author √°lvaro <alvarojimgil12@gmail.com>
  */
 
 public class caja {
@@ -12,8 +12,8 @@ public class caja {
     
     private boolean abierto;
     private String mensaje;
-    private String cadenatexto = "La caja est· cerrada";
-    private String cadenatexto2 = "La caja est· abierta";
+    private String cadenatexto = "La caja est√° cerrada";
+    private String cadenatexto2 = "La caja est√° abierta";
 
     
     //METODOS
@@ -22,21 +22,21 @@ public class caja {
         
         mensaje = m;
         
-    };
+    }
     
     public caja (boolean a , String m){
         
         abierto = a;
         mensaje = m;
         
-    };
+    }
     
     public caja (){
         
         abierto = false;
         mensaje = "Viva el Tema 7";
         
-    };
+    }
     
     
     //GETTERS
@@ -54,7 +54,7 @@ public class caja {
       }
       
         
-    };
+    }
     
     public String getEstadoCaja(){
       
@@ -68,6 +68,6 @@ public class caja {
             
         }
         
-    };
+    }
     
 }
