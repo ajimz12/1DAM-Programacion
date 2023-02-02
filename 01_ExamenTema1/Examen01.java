@@ -3,7 +3,7 @@ package examen01;
 
 /**
  *
- * @author Álvaro
+ * @author ï¿½lvaro
  */
 public class Examen01 {
 
@@ -12,7 +12,7 @@ public class Examen01 {
      */
     public static void main(String[] args) {
         
-        int nums = 1;
+        int numeros = 1;
         double numsdouble = 1.7;
         char variabchar ;
         String palabras = "Hola Mundo";
