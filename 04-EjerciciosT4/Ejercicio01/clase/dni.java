@@ -24,10 +24,11 @@ public class dni {
     }
     
      public dni(String dni2){
-     
-     dni = dni2;
-     
-     }
+    
+       letra = dni2.charAt(7);
+       numero = Integer.parseInt(dni2.substring(0, 6)); 
+         
+    }
      
      
    //GETTERS
@@ -43,11 +44,17 @@ public class dni {
          
      }
      
-     public String getDni(){
-         
-       return dni;  
-         
-     }
+     //SETTERS
+    
+    public void setNum(int n){
+    
+        numero = n;
+    }
+    
+    public void setLetra(char l){
+    
+        letra = l;
+    }
      
     
     
