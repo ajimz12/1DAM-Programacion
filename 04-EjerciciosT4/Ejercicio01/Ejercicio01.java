@@ -3,7 +3,7 @@ package ejercicio01;
 
 /**
  *
- * @author álvaro <alvarojimgil12@gmail.com>
+ * @author Ã¡lvaro <alvarojimgil12@gmail.com>
  */
 
 import ejercicio01.dni.*;
@@ -20,7 +20,6 @@ public class Ejercicio01 {
         System.out.println(dni.getNumDni());
         System.out.println(dni.getLetraDni());
         
-        System.out.println(dni2.getDni());
     }
 
 }
