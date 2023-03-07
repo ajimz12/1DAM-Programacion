@@ -1,7 +1,6 @@
 package ejercicio05;
 
-public class Edificio {
-
+public class Edificio{
     private String direccion;
     private int numeroPlantas;
 
@@ -9,8 +8,6 @@ public class Edificio {
 
         this.direccion = d;
         this.numeroPlantas = np;
+
     }
-
-
-
 }

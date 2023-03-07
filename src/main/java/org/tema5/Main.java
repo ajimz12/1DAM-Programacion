@@ -1,4 +1,4 @@
-package org.example;
+package org.tema5;
 
 import ejercicio05.Edificio;
 public class Main {
