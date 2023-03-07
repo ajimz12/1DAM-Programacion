@@ -6,6 +6,8 @@ public class Main {
 
         Edificio e = new Edificio("Calle REAL", 6);
 
+        System.out.println("hello world");
+
 
 
     }
