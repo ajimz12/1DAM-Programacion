@@ -3,12 +3,12 @@ package tema5.ejercicio12;
 
 /**
  *
- * @author álvaro <alvarojimgil12@gmail.com>
+ * @author Ã¡lvaro <alvarojimgil12@gmail.com>
  */
 public class EmpleadoPrimable extends Empleado{
     
     //ATRIBUTOS
-    private boolean primado = false;
+    private boolean primado;
     
     /**
      * Constructor con parametros
@@ -19,6 +19,7 @@ public class EmpleadoPrimable extends Empleado{
     public EmpleadoPrimable(String n, double s){
         
         super(n,s);
+        this.primado = false;
         
     }
     
